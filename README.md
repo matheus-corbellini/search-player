@@ -1,39 +1,39 @@
 # 🔴 Search Player - Internacional
 
-Aplicação web desenvolvida em **React** com **Vite**, que permite buscar jogadores do Sport Club Internacional e exibir suas informações em formato de cartão estilizado.
-
-![Logo do Inter](./src/assets/inter.svg)
+A web application built with **React** and **Vite** that allows you to search for players from Sport Club Internacional and view their information in a styled player card format.
 
 ---
 
-## 📌 Funcionalidades
+## 📌 Features
 
-- 🔍 Buscar jogadores por nome ou parte do nome
-- 📝 Exibir informações: posição, idade, altura, perna preferida, times e gols na carreira
-- ❌ Feedback para jogador não encontrado
-- 🎨 Layout responsivo com escudo do Inter e tema personalizado
+- 🔍 Search for players by full name or partial name
+- 📝 Display player info: position, age, height, preferred foot, previous clubs, and career goals
+- ❌ Friendly feedback when player is not found
+- 🎨 Responsive layout with Inter’s crest and themed visuals
 
 ---
 
-## 💻 Tecnologias
+## 💻 Technologies
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [CSS Puro](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [GitHub Pages](https://pages.github.com/) para deploy
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Pure CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [GitHub Pages](https://pages.github.com/) for deployment
 
 ---
 
-🌐 Deploy
-O projeto está disponível em:
-🔗 https://matheus-corbellini.github.io/search-player
+## 🌐 Live Demo
+
+Project available at:  
+🔗 [https://matheus-corbellini.github.io/search-player](https://matheus-corbellini.github.io/search-player)
 
 ---
 
-📌 Melhorias futuras
-✅ Adicionar fotos reais dos jogadores
-✅ Buscar jogadores por posição ou número
-⏳ Integrar com API de dados reais
-⏳ Adicionar filtro por elenco atual
-⏳ Animações e estatísticas interativas
+## 📌 Future Improvements
+
+- ✅ Add real player photos
+- ✅ Enable search by position or shirt number
+- ⏳ Integrate real-time football data API
+- ⏳ Add filters for active squad only
+- ⏳ Include animations and interactive statistics
