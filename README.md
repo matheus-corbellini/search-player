@@ -1,54 +1,39 @@
-# React + TypeScript + Vite
+# 🔴 Search Player - Internacional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida em **React** com **Vite**, que permite buscar jogadores do Sport Club Internacional e exibir suas informações em formato de cartão estilizado.
 
-Currently, two official plugins are available:
+![Logo do Inter](./src/assets/inter.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🔍 Buscar jogadores por nome ou parte do nome
+- 📝 Exibir informações: posição, idade, altura, perna preferida, times e gols na carreira
+- ❌ Feedback para jogador não encontrado
+- 🎨 Layout responsivo com escudo do Inter e tema personalizado
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 💻 Tecnologias
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [CSS Puro](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [GitHub Pages](https://pages.github.com/) para deploy
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+🌐 Deploy
+O projeto está disponível em:
+🔗 https://matheus-corbellini.github.io/search-player
+
+---
+
+📌 Melhorias futuras
+✅ Adicionar fotos reais dos jogadores
+✅ Buscar jogadores por posição ou número
+⏳ Integrar com API de dados reais
+⏳ Adicionar filtro por elenco atual
+⏳ Animações e estatísticas interativas
