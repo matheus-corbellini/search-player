@@ -24,11 +24,11 @@ const App = () => {
   return (
     <div className="container">
       <img
-        src="/images/inter.svg"
+        src={new URL("/images/inter.svg", import.meta.url).href}
         alt="Escudo do Internacional"
         className="logo-inter"
       />
-      <h1>Internacional - Players</h1>
+      <h1>Internacional - Jogadores</h1>
       <SearchBar onSearch={buscarJogador} />
       {erro ? <NotFoundCard /> : <PlayerCard jogador={jogador} />}
     </div>

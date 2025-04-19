@@ -4,8 +4,8 @@ const NotFoundCard = () => {
   return (
     <div className="player-card not-found-card">
       <div className="not-found-icon">❌</div>
-      <h2>Player not found</h2>
-      <p>This player is not registred or is not playing at Internacional</p>
+      <h2>Jogador não encontrado</h2>
+      <p>Este jogador nao esta registrado ou joga por outro clube.</p>
     </div>
   );
 };

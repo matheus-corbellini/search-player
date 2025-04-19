@@ -12,11 +12,11 @@ const SearchBar = ({ onSearch }) => {
     <form onSubmit={handleSubmit} className="search-form">
       <input
         type="text"
-        placeholder="Type the player name"
+        placeholder="Digite o nome do jogador"
         value={nome}
         onChange={(e) => setNome(e.target.value)}
       />
-      <button type="submit">Search</button>
+      <button type="submit">Buscar</button>
     </form>
   );
 };
